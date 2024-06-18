@@ -1,0 +1,9 @@
+{
+    "name": "binh/cat_an",
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    },
+    "require": {}
+}
