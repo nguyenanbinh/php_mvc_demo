@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Aside */
+
+aside .left_aside {
+    border: 2px solid black;
+}
+
+aside .left_aside a {
+    border-bottom: 1px solid black;
+}
+
+
+/* end aside */
+
+
+/* Article */
+
+article .p-brand img {
+    width: 80px;
+}
+
+article .p-name a {
+    text-decoration: none;
+    color: black;
+}
+
+article .p-price {
+    font-weight: bold;
+}
+
+
+/* end article */
+
+
+/* Breadcrumb navigation */
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.main_product_detail {
+    margin-top: 1.5em;
+}
+
+
+/* end breadcrumb_nav */
+
+
+/* Detail Product */
+
+.product_detail .div_gift {
+    border: 1.1px dotted black;
+}
+
+.product_detail .div_gift .gift {
+    border: 1px solid black;
+    background-color: green;
+}
+
+.product_detail .p-promotion {
+    list-style-type: none;
+    line-height: 1.2em;
+}
+
+.product_detail .p-promotion li::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 2em;
+    line-height: 0.2em;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Button Center */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center a {
+    background-color: rgb(219, 14, 41);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+/*  Detail product/ Left content-img*/
+
+.left_image {
+    border: 2px solid green;
+    height: 100%;
+}
+
+.product_info {
+    font-size: 10px;
+    column-count: 2;
+    margin: 0 .5em;
+}
+
+.product_info p::before {
+    content: "\2022";
+    color: grey;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: .9em;
+    line-height: 0.2em;
+}
+
+
+/* .img_product {
+    height: auto;
+}*/
+
+.seemore_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seemore_btn button a {
+    color: black;
+    text-decoration: none;
+}
+
+#thatBtn a:hover {
+    background-color: red;
+}

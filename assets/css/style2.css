@@ -1,0 +1,16 @@
+.img-banner {
+    height: auto;
+    width: 100vw;
+}
+
+footer {
+    background-color: #444;
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.menu-top li .nav-link:hover {
+    color: #fff;
+    background-color: #007bff;
+}
